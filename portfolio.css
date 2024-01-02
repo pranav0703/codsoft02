@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: poppins;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(171, 219, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+body nav ul  {
+    display: flex;
+    gap: 30px;
+  
+}
+
+body nav ul li a{
+    text-decoration: none;
+   font-size: 15px;
+   cursor: pointer;
+   color: #ff0000;
+   font-weight: 700;
+}
+body nav ul li a:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+/* .searchbox{
+    gap: 30px;
+} */
+nav input{
+   padding: 4px 10px;
+
+}
+.logo{
+    /* font-size: 40px;
+    font-weight: 800;
+    border-radius: 50%; */
+    height: 80px;
+    width: 50px;
+}
+button{
+    cursor: pointer;
+    background-color: #ff0000;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 4px 10px;
+    font-weight: 700;
+    width: fit-content;
+}
+button:hover{
+    color: black;
+    background-color: rgb(244, 68, 68);
+    border: 1px solid black;
+    font-weight: 900;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+}
+.hero-section-left{
+    font-weight: 700;
+}
+.hero-section-left h1 span{
+    color: #ff0000;
+    font-weight: 900;
+
+}
+.hero-section-left p span{
+color: #ff0000;
+font-weight: 900;
+}
+.hero-section-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hero-section-right img{
+    height: 240px;
+    width: 218px;
+    border-radius: 50%;
+}
+.btns{
+    display: flex;
+   justify-content: center;
+    gap: 30%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer ul{
+    display: flex;
+    gap: 30px;
+}
+footer ul li a i img{
+    height: 50px;
+    width: 50px;
+}
